@@ -1,66 +1,77 @@
-# AI Workout Form Assessor
+# FitHyve
 
-## Overview
+FitHyve is a revolutionary fitness platform transforming how individuals engage with their well-being. Our app links users to gyms, trainers, and a curated marketplace for fitness products, all powered by AI. It delivers personalized coaching, fosters social interaction, and facilitates content creation.
 
-The AI Workout Form Assessor is an intelligent system designed to assess and provide feedback on users' workout forms across various exercise types. Leveraging advanced computer vision and deep learning techniques, this tool aims to enhance fitness routines by ensuring correct and effective movements.
+## Features
 
-## Key Features
-
-- **Multi-Exercise Recognition:**
-  Identify a diverse range of exercises, including strength training, cardio, Zumba, aerobics, and yoga.
-
-- **Real-Time Feedback:**
-  Receive instant feedback on workout form, helping users make immediate corrections for better results.
-
-- **Adaptive Learning:**
-  Continuously learn and adapt to new exercises, ensuring the system stays up-to-date with evolving fitness trends.
-
-- **User Guidance:**
-  Provide personalized guidance and suggestions based on recognized forms, catering to users with different fitness levels.
-
-- **Privacy Assurance:**
-  Prioritize user privacy and comply with data protection regulations when dealing with video data.
+- User Registration and Authentication
+- Personalized Workout Recommendations
+- Access to a Curated Marketplace for Fitness Products
+- Community Features for Social Interaction
 
 ## Getting Started
 
-1. **Dataset:**
-   Acquire or create a diverse dataset covering a wide range of exercises. Ensure detailed annotation of correct and incorrect forms.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-2. **Environment Setup:**
-   Set up the required development environment, including the installation of necessary libraries and dependencies.
+### Prerequisites
 
-3. **Training the Model:**
-   Train the computer vision model using the prepared dataset. Adjust hyperparameters for optimal performance.
+What you need to install the software:
 
-4. **Integration:**
-   Integrate the trained model into the application, allowing real-time assessment of workout forms.
+- Node.js
+- Flutter SDK
+- Firebase account
+- Azure account (for AI services)
+
+### Installing
+
+A step-by-step guide to getting a development environment running.
+
+#### Backend Setup
+
+1. Clone the repository
+  git clone https://github.com/yourusername/FitHyve.git
+2. Navigate to the backend directory and install dependencies
+cd FitHyve/backend
+npm install
+
+markdown
+Copy code
+3. Start the server
+node server.js
+
+markdown
+Copy code
+
+#### Frontend Setup
+
+1. Navigate to the frontend directory
+cd FitHyve/frontend
+
+markdown
+Copy code
+2. Run the Flutter app
+flutter run
+
+markdown
+Copy code
+
+### Firebase Configuration
+
+- Set up Firebase Authentication in the Firebase console.
+- Initialize Firebase in your Flutter app as described in the Firebase documentation.
+
+### Azure AI Services
+
+- Create Azure Cognitive Services in the Azure portal.
+- Integrate the services as needed within your app, following Azure's documentation.
 
 ## Usage
 
-1. **Record Workout:**
-   Use the application to record your workout sessions, ensuring proper visibility of body movements.
+After installation, users can register and log in to access personalized workout recommendations and fitness content.
 
-2. **Receive Feedback:**
-   Get instant feedback on your workout form, with the system recognizing different exercises and providing guidance.
-
-3. **Continuous Improvement:**
-   Contribute to the system's adaptive learning by providing feedback on recognized forms, helping enhance its accuracy over time.
-
-## Contributors
-
-- [Shreyan Shukla](github.com/shreyan01)
-
-## License
-
-This project is licensed under the [MIT License](LICENSE.md).
 
 ## Acknowledgments
 
-- [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) for providing valuable resources on pose estimation.
-- [Google Dataset Search](https://datasetsearch.research.google.com/) and [Kaggle](kaggle.com/datasets) for providing datasets for supervised training of the model
-
-## Disclaimer
-
-This tool is designed for informational purposes only and should not replace professional guidance from certified fitness instructors or healthcare providers. Consult with a fitness professional before making significant changes to your workout routine.
-
-Feel free to customize this README according to your project's specific details and requirements.
+- Microsoft Imagine Cup and Startups Founders Hub for letting us access exclusive Azure services
+- OpenAI, Azure AI studio for providing us with amazing AI building products
+- etc.
